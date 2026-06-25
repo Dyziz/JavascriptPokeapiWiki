@@ -64,6 +64,14 @@ br {
     display: none;
 }
 
+#berhasilText {
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
 #errorText {
     color: #e74c3c;
     font-weight: bold;

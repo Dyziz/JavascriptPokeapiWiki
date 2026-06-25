@@ -1,7 +1,12 @@
 async function ambilData() {
     const imgElement = document.getElementById("gambarPokemon");
+    const berhasilText = document.getElementById("berhasilText");
     const errorText = document.getElementById("errorText");
     const namaPokemon = document.getElementById("namaPokemon").value.toLowerCase().trim();
+
+    if (berhasilText) {
+        berhasilText.style.display = "none";
+    }
 
     if (errorText) {
         errorText.style.display = "none";
@@ -25,9 +30,9 @@ async function ambilData() {
             imgElement.src = gambarPokemon;
             imgElement.style.display = "block";
         }
-        if (errorText) {
-            errorText.textContent = data.name;
-            errorText.style.display = "block";
+        if (berhasilText) {
+            berhasilText.textContent = "Berhasil ditemukan!";
+            berhasilText.style.display = "block";
         }
     }
 
