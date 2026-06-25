@@ -25,6 +25,10 @@ async function ambilData() {
             imgElement.src = gambarPokemon;
             imgElement.style.display = "block";
         }
+        if (errorText) {
+            errorText.textContent = data.name;
+            errorText.style.display = "block";
+        }
     }
 
     catch (error) {
