@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background kelabu -->
+  <rect width="300" height="300" fill="#cccccc"/>
+  <!-- Ikon dokumen sedih di tengah -->
+  <g transform="translate(125, 125)">
+    <!-- Outline Dokumen (lebar 50, tinggi 50) -->
+    <path d="M 12 8 L 32 8 L 38 14 L 38 42 L 12 42 Z" fill="none" stroke="#4d4d4d" stroke-width="4" stroke-linejoin="miter"/>
+    <!-- Lipatan dokumen kanan atas -->
+    <path d="M 32 8 L 32 14 L 38 14" fill="none" stroke="#4d4d4d" stroke-width="4" stroke-linejoin="miter"/>
+    <!-- Mata kiri -->
+    <rect x="20" y="21" width="3" height="5" fill="#4d4d4d"/>
+    <!-- Mata kanan -->
+    <rect x="27" y="21" width="3" height="5" fill="#4d4d4d"/>
+    <!-- Mulut sedih melengkung ke atas (frown) -->
+    <path d="M 19 35 Q 25 30 31 35" fill="none" stroke="#4d4d4d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
